@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class ParEImpar {
+public class ParesEImpares {
 
     public static void main(String[] args) {
 
@@ -34,5 +34,7 @@ public class ParEImpar {
           for(int impar : impares) {
             System.out.println(impar);
         }
+
+        scanner.close();
     }
 }
