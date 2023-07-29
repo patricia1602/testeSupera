@@ -11,13 +11,13 @@ public class NumerosPares {
         Scanner scanner = new Scanner(System.in);
 
         System.out.printf("Informe o tamanho do lista (n): "); 
-        int n = scanner.nextInt();
+        int n = scanner.nextInt();  //n=5
 
         System.out.println("Informe o valor (K): ");
-        int k = scanner.nextInt();
+        int k = scanner.nextInt();  //k=2
 
         int[] array = new int[n];
-        System.out.println("Informe os números do array separados por espaço: ");
+        System.out.println("Informe os números do array separados por espaço: ");  //Entre com esse num (1 5 4 3 2)
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
